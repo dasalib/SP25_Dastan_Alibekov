@@ -151,5 +151,3 @@ inner join film_actor fa on a.actor_id = fa.actor_id
 inner join film f on f.film_id = fa.film_id
 order by years_between_films desc
 limit 10;
-
-
